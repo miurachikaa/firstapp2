@@ -9,4 +9,9 @@ public class PostController {
     public String showHello(){
         return "hello";
     }
+
+    @GetMapping
+    public String showList(){
+        return "index";
+    }
 }
